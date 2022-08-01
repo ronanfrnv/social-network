@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0px;
+  left:0px;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container {
+  align-items: center;
+  text-align: center;
+  animation: changeBackgroundColor 7s infinite;
+}
+
+@keyframes changeBackgroundColor {
+  0% {
+    background-color: #EE7752;    
+  }
+  25% {
+    background-color: #E73C7E;
+  }
+  50% {
+    background-color: #23A6D5;
+  }
+  100% {
+    background-color: #23A6D5;
+  }
+}
+
+.login-box {
+  background: #fff;
+  padding: 20px;
+  max-width: 480px;
+  margin: 5vh auto;
+  margin-bottom: 25vh;
+  text-align: center;
+  letter-spacing: 1px;
+  position: relative;
+  border-radius: 1%;
+  padding-bottom: 35px;
+}
+
+.login-box:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.login-box h2 {
+  margin: 20px 0 20px;
+  padding: 0;
+  text-transform: uppercase;
+  color: #4688F1;
+}
+
+.social-button {
+    background-position: 25px 0px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+    line-height: 50px;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 100%;
+    border-radius: 3px;
+  margin: 10px auto;
+  outline: rgb(255, 255, 255) none 0px;
+  padding-left: 20%;
+  transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#twitch-connect {
+  background: #9147FF  no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+  border: 1px solid #9147FF;
+  overflow-y: hidden;
+}
+
+#twitch-connect:hover {
+    border-color: #9147FF;
+    background: rgb(255, 255, 255) no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+    -webkit-transition: all .8s ease-out;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease-out;
+  overflow-y: hidden;
+}
+
+#twitch-connect span {
+    box-sizing: border-box;
+  color:  #FFF;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0px none rgb(255, 255, 255);
+  outline: rgb(255, 255, 255) none 0px;
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow-y: hidden;
+}
+
+#twitch-connect:hover span {
+    color: #9147FF;
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow-y: hidden;
+}
+
+#youtube-connect {
+  background:rgb(220, 74, 61) no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+  border: 1px solid rgb(220, 74, 61);
+  overflow-y: hidden;
+}
+
+#youtube-connect:hover {
+    border-color: rgb(220, 74, 61);
+    background: #FFF  no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+    -webkit-transition: all .8s ease-out;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease-out;
+  overflow-y: hidden;
+}
+
+#youtube-connect span {
+    box-sizing: border-box;
+    color:#FFF;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0px none rgb(220, 74, 61);
+  outline: rgb(255, 255, 255) none 0px;
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow-y: hidden;
+}
+
+#youtube-connect:hover span {
+    color: rgb(220, 74, 61);
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow-y: hidden;
+}
+
+#twitter-connect {
+  background: rgb(85, 172, 238) no-repeat scroll 5px 1px / 45px 45px padding-box border-box;
+  border: 1px solid rgb(85, 172, 238);
+  overflow-y: hidden;
+}
+
+#twitter-connect:hover {
+    border-color: rgb(85, 172, 238);
+    background: rgb(255, 255, 255)  no-repeat scroll 5px 1px / 45px 45px padding-box border-box;
+    -webkit-transition: all .8s ease-out;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease-out;
+  overflow-y: hidden;
+}
+
+#twitter-connect span {
+    box-sizing: border-box;
+    color: #FFF;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0px none rgb(220, 74, 61);
+  outline: rgb(255, 255, 255) none 0px;
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow-y: hidden;
+}
+
+#twitter-connect:hover span {
+    
+    color: rgb(85, 172, 238);
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow-y: hidden;
+}
+
+#linkedin-connect {
+    background: rgb(0, 119, 181)  no-repeat scroll 13px 0px / 28px 45px padding-box border-box;
+  border: 1px solid rgb(0, 119, 181);
+  overflow-y: hidden;
+}
+
+#linkedin-connect:hover {
+    border-color: rgb(0, 119, 181);
+    background: rgb(255, 255, 255)  no-repeat scroll 13px 0px / 28px 45px padding-box border-box;
+    -webkit-transition: all .8s ease-out;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease-out;
+  overflow-y: hidden;
+}
+
+#linkedin-connect span {
+    box-sizing: border-box;
+    color: #FFF;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0px none rgb(0, 119, 181);
+  outline: rgb(255, 255, 255) none 0px;
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow-y: hidden;
+}
+
+#linkedin-connect:hover span {
+    
+    color: rgb(0, 119, 181);
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow-y: hidden;
+}
+
+#website-connect {
+    background: #2c3e50 no-repeat scroll 13px 0px / 28px 45px padding-box border-box;
+  border: 1px solid #2c3e50;
+  overflow-y: hidden;
+}
+
+#website-connect:hover {
+    border-color: #2c3e50;
+    background: rgb(255, 255, 255)  no-repeat scroll 13px 0px / 28px 45px padding-box border-box;
+    -webkit-transition: all .8s ease-out;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease-out;
+  overflow-y: hidden;
+}
+
+#website-connect span {
+    box-sizing: border-box;
+    color: #FFF;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0px none #2c3e50;
+  outline: rgb(255, 255, 255) none 0px;
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow-y: hidden;
+}
+
+#website-connect:hover span {
+    
+    color: #2c3e50;
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow-y: hidden;
+}
+#insta-connect {
+    background: #EB0978 no-repeat scroll 13px 0px / 28px 45px padding-box border-box;
+  border: 1px solid #EB0978;
+  overflow-y: hidden;
+}
+
+#insta-connect:hover {
+    border-color: rgb#EB0978;
+    background: rgb(255, 255, 255)  no-repeat scroll 13px 0px / 28px 45px padding-box border-box;
+    -webkit-transition: all .8s ease-out;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease-out;
+  overflow-y: hidden;
+}
+
+#insta-connect span {
+    box-sizing: border-box;
+    color: #FFF;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0px none rgb#EB0978;
+  outline: rgb(255, 255, 255) none 0px;
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow-y: hidden;
+}
+
+#insta-connect:hover span {
+    
+    color: #EB0978;
+    -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow-y: hidden;
+}
+
+
+#github-connect {
+  background: rgb(22, 27, 34) no-repeat scroll 13px 0px / 28px 45px padding-box border-box;
+border: 1px solid rgb(22, 27, 34);
+overflow-y: hidden;
+}
+
+#github-connect:hover {
+  border-color: rgb(22, 27, 34);
+  background: rgb(255, 255, 255)  no-repeat scroll 13px 0px / 28px 45px padding-box border-box;
+  -webkit-transition: all .8s ease-out;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease-out;
+}
+
+#github-connect span {
+  box-sizing: border-box;
+  color: #FFF;
+cursor: pointer;
+text-align: center;
+text-transform: uppercase;
+border: 0px none rgb(22, 27, 34);
+outline: rgb(255, 255, 255) none 0px;
+  -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+overflow-y: hidden;
+}
+
+#github-connect:hover span {
+  
+  color: rgb(22, 27, 34);
+  -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+overflow-y: hidden;
+}
+i{
+  padding-right: 3px;
+  font-size: 15px;
+}
+@media (max-width: 480px) {
+  * {
+    overflow-x: hidden;
+  }
+  html{
+    overflow-y: scroll;
+  }
+}
